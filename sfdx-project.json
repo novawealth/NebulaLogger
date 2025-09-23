@@ -5,13 +5,13 @@
   "sfdcLoginUrl": "https://login.salesforce.com",
   "packageDirectories": [
     {
-      "package": "Nebula Logger - Core",
+      "package": "Nova Nebula Logger - Core",
       "path": "./nebula-logger/core",
       "definitionFile": "./config/scratch-orgs/base-scratch-def.json",
       "scopeProfiles": true,
-      "versionNumber": "4.16.5.NEXT",
+      "versionNumber": "4.16.5.0",
       "versionName": "Capture Apex Cursor Transaction Limits",
-      "versionDescription": "Added auto-capturing of transaction limits for Apex cursor rows & fetch calls, stored in new fields on LogEntryEvent__e & LogEntry__c",
+      "versionDescription": "Nova fork of Nebula",
       "postInstallUrl": "https://github.com/jongpie/NebulaLogger/wiki",
       "releaseNotesUrl": "https://github.com/jongpie/NebulaLogger/releases",
       "unpackagedMetadata": {
@@ -85,7 +85,6 @@
     }
   ],
   "packageAliases": {
-    "Nebula Logger - Core": "0Ho5Y000000TNKASA4",
     "Nebula Logger - Core@4.4.1-unlocked-package-release": "04t5Y0000027FGFQA2",
     "Nebula Logger - Core@4.4.2-topics-overloads-cleanup": "04t5Y0000027FGeQAM",
     "Nebula Logger - Core@4.4.3-guest-user-bugfix": "04t5Y0000027FI1QAM",
@@ -242,6 +241,8 @@
     "Nebula Logger - Core Plugin - Slack@1.5.1": "04t5Y0000023Qu8QAE",
     "Nebula Logger - Core Plugin - Slack@1.5.2": "04t5Y0000015nDJQAY",
     "Nebula Logger - Core Plugin - Slack@1.5.3": "04t5Y0000015oERQAY",
-    "Nebula Logger - Core Plugin - Slack@1.5.4": "04t5Y0000015oTTQAY"
+    "Nebula Logger - Core Plugin - Slack@1.5.4": "04t5Y0000015oTTQAY",
+    "Nova Nebula Logger - Core": "0HoSl0000000LdxKAE",
+    "Nova Nebula Logger - Core@4.16.5": "04tSl000002ApbBIAS"
   }
 }
